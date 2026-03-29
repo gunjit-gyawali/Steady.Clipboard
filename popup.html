@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stedy Clipboard</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <span class="logo">Steady.Clipboard</span>
+    </div>
+
+    <div class="input-area">
+      <textarea id="textInput" placeholder="Write something to save..."></textarea>
+      <button id="saveBtn">Save</button>
+    </div>
+
+    <div class="clips-container" id="clipsContainer">
+      <p class="empty-msg" id="emptyMsg">Nothing saved yet. </p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
